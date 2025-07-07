@@ -108,6 +108,6 @@ Type your Address
 </html> 
 ```
 ## Output:
-
+![alt text](image.png)
 ## Result:
 An Admission Enquiry Form using HTML that collects student details and message for institutional follow-up is successfully created using semantic and readable HTML.

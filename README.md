@@ -46,37 +46,39 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
 <body align="center">
     <h1>Admission Enquiry Form</h1>
     <form>
+        <div>
         <label for="fullname">
             FULLNAME
 
         </label>
         <input type="text" placeholder="Enter your name" required>
-        <br>
+        <br><br>
         <label for="email">EMAIL ID</label>
         <input type="email" placeholder="Enter your email">
-        <br>
+        <br><br>
         <label for="mobile number" >MOBILE NUMBER</label>
         <input type="number" name="mobile number" placeholder="Enter your mobile no" min="100000000" >
-        <br>
+        <br><br>
         <label for="gender">GENDER</label>
         <input type="radio" name="GENDER">Male
         <input type="radio"name="GENDER">Female
-        <br>
+        <br><br>
         <label for="dob">DOB</label>
         <input type="date" name="dob">
-        <br>
+        <br><br>
         <label for="dept">DEPARTMENT</label>
         <select name="dept" >
+            <option >--</option>
             <option >CSE</option>
             <option >IT</option>
             <option >AIML</option>
             <option >AIDS</option>
             <option >ECE</option>
         </select>
-        <br>
+        <br><br>
         <label for=" Academic Qualification">ACADEMIC QUALIFICATION
         </label>
-        <br>
+        <br><br>
         <textarea rows="5" cols="35">
 
 Type your Academic Qualification
@@ -85,7 +87,7 @@ Type your Academic Qualification
         <br>
         <label for="Address">ADDRESS
         </label>
-        <br>
+        <br><br>
         <textarea rows="3" cols="40">
 
 Type your Address
@@ -106,7 +108,6 @@ Type your Address
 </html> 
 ```
 ## Output:
-![alt text](image.png)
-![alt text](image-1.png)
+
 ## Result:
 An Admission Enquiry Form using HTML that collects student details and message for institutional follow-up is successfully created using semantic and readable HTML.

@@ -1,5 +1,5 @@
 # Admission_Enquiry_Form
-## Date:
+## Date:07/07/2025
 
 ## Objective:
 To design a simple Admission Enquiry Form using basic HTML that collects student details such as name, contact, program of interest, and a message for further communication.
@@ -35,8 +35,78 @@ Use submit and reset at the bottom of the form.
 No CSS or JavaScript is to be included. Focus on structure and accessibility.
 
 ## HTML Code:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveetha Engineering College - Admission Enquiry</title>
+</head>
+<body align="center">
+    <h1>Admission Enquiry Form</h1>
+    <form>
+        <label for="fullname">
+            FULLNAME
 
+        </label>
+        <input type="text" placeholder="Enter your name" required>
+        <br>
+        <label for="email">EMAIL ID</label>
+        <input type="email" placeholder="Enter your email">
+        <br>
+        <label for="mobile number" >MOBILE NUMBER</label>
+        <input type="number" name="mobile number" placeholder="Enter your mobile no" min="100000000" >
+        <br>
+        <label for="gender">GENDER</label>
+        <input type="radio" name="GENDER">Male
+        <input type="radio"name="GENDER">Female
+        <br>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob">
+        <br>
+        <label for="dept">DEPARTMENT</label>
+        <select name="dept" >
+            <option >CSE</option>
+            <option >IT</option>
+            <option >AIML</option>
+            <option >AIDS</option>
+            <option >ECE</option>
+        </select>
+        <br>
+        <label for=" Academic Qualification">ACADEMIC QUALIFICATION
+        </label>
+        <br>
+        <textarea rows="5" cols="35">
+
+Type your Academic Qualification
+        </textarea>
+        <br>
+        <br>
+        <label for="Address">ADDRESS
+        </label>
+        <br>
+        <textarea rows="3" cols="40">
+
+Type your Address
+        </textarea>
+        <br>
+        <br>
+        <label for="contact mode">Preferred Mode of Contact </label>
+        <input type="checkbox" name="contact mode">Email
+        <input type="checkbox" name="contact mode">Phone
+        <input type="checkbox" name="contact mode">Whatsapp
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        
+    </form>
+</body>
+</html> 
+```
 ## Output:
-
+![alt text](image.png)
+![alt text](image-1.png)
 ## Result:
 An Admission Enquiry Form using HTML that collects student details and message for institutional follow-up is successfully created using semantic and readable HTML.
